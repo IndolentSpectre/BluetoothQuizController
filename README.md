@@ -9,4 +9,5 @@ Once connected, the client needs to supply the quizers name before proceeding.
 A button at the client may be used to signal the quizer's desire to answer a question.
 That request is signalled by sending '9' to the server.  The server takes care of locking-out
 other quizers.
-Control of the server is via UNIX signals, delivered by the Bash wrapper.
+Control of the server is via UNIX signals, delivered by the Bash wrapper.  Security has
+not been implemented.
