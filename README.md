@@ -5,7 +5,7 @@ The server, designed to run under Python3, uses rfcomm to communicate with clien
 MIT App Inventor has been used as a convenient way of designing an Android client,
 although any appropriate technology may be used.
 
-Once connected, the client needs to supply the quizers name before proceeding.
+Once connected, the client needs to supply the quizer's name before proceeding.
 A button at the client may be used to signal the quizer's desire to answer a question.
 That request is signalled by sending '9' to the server.  The server takes care of locking-out
 other quizers.
